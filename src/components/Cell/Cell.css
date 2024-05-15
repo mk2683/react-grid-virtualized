@@ -1,0 +1,17 @@
+.GridItemEven,
+.GridItemOdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.GridItemEven {
+  background-color: #f8f8f0;
+}
+
+.image {
+  object-fit: cover; /* Scale images to cover the container */
+  position: absolute;
+  z-index: 2;
+}
