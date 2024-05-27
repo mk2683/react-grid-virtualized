@@ -26,3 +26,26 @@ const Cell = ({ columnIndex, rowIndex, imageIndex }) => {
 };
 
 export default Cell;
+
+// import { imageUrl } from "../../constants/home";
+// import "./Cell.css";
+
+// const Cell = ({ columnIndex, rowIndex, imageIndex }) => {
+//   const isOdd = columnIndex % 2 ^ rowIndex % 2;
+//   const className = isOdd ? "GridItemOdd" : "GridItemEven";
+
+//   return (
+//     <div className={className}>
+//       <img
+//         key={imageIndex.id}
+//         className="image"
+//         loading="lazy"
+//         src={`${imageUrl}${imageIndex.id}`}
+//         alt={`Random ${imageIndex.id}`}
+//       />
+//       <h6>I: {imageIndex.id}</h6>
+//     </div>
+//   );
+// };
+
+// export default Cell;
